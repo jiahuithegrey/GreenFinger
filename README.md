@@ -1,15 +1,25 @@
 # Thrive
-* This app is a restaurant game that lets users input the names of burgers they'd like to eat.
-* This app follows the MVC paradigm. Short for Model View Controller, MVC is an architectural pattern that structures our codebase in three distinct sections according to a software design philosophy known as the _separation of concerns_. 
-* This is my first full stack project which allows the user to create, update and delete data.
+* This application helps plant lovers manage and take care of their houseplants by keeping a water schedule and pushing notifications when it’s time to water. First, uses need to sign up and sign in. Then users can keep track of their house plants by filling in plant name, location, plant type, time to water, water frequency and when they want to water the plants during the day.
+* This application uses the MERN stack.
+* This application is designed for mobile.
 
 ## Built With
-* Frontend: Handlebars, HTML, CSS, Bootstrap
-* Backend: Express, NodeJS, JQuery
-* Database: MySQL, Sequelize
+* Frontend: 
+    * React
+    * Material-UI
+    * Adobe Illustrator
+* Backend: 
+    * Database: MongoDB & Mongoose Schema
+    * Express.js
+    * Node.js
+    * Pixabay image searching api
+
+## Deployment
+Heroku Deployment: [Thrive](https://thrive206.herokuapp.com/)
+
+
 
 ## Demo
-Heroku Deployment: [Eat-Da-Burger](https://hw13-eat-da-burger.herokuapp.com/)
 
 ![Burger Demo](demo/burgerdemo.gif)
 
