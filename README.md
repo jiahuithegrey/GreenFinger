@@ -1,5 +1,5 @@
 # Thrive
-* This application helps plant lovers manage and take care of their houseplants by keeping a water schedule and pushing notifications when it’s time to water. First, uses need to sign up and sign in. Then users can keep track of their house plants by filling in plant name, location, plant type, time to water, water frequency and when they want to water the plants during the day.
+* This application helps plant lovers manage and take care of their houseplants by keeping a water schedule and pushing notifications when it’s time to water. First, uses need to sign up and sign in. Then users can keep track of their house plants by filling in plant name, location, plant type, start date to water, water frequency and what time they want to water the plants during the day.
 * This application uses the MERN stack.
 * This application is designed for mobile.
 
@@ -12,33 +12,34 @@
     * Database: MongoDB & Mongoose Schema
     * Express.js
     * Node.js
-    * Pixabay image searching api
+    * Pixabay image searching API
 
 ## Deployment
 Heroku Deployment: [Thrive](https://thrive206.herokuapp.com/)
 
-
-
-## Demo
-
-![Burger Demo](demo/burgerdemo.gif)
+![Thrive Demo](demo/thrive.gif)
 
 ## Development
-* Utilize MVC design pattern 
-* Transfer frontend elements from HTML to handlebars system
-* Utilize mySql database and sequelize to create, edit and get data
-* Create API routes and HTML routes to make the application function
+* Set up React components and pages
+* Utilize React hooks to build React functional components
+* Utilize Material-UI to style front-end
+* Build validation system
+
+## Teamwork
+* Jiahui Wang: React components and pages set-up, Material-UI styling, image searching API functional component building with React hooks, frontend data storage and connection to MongoDB, UX/UI design, illustrations for UI
+* Harry Furusho: Backend, MongoDB, validation, React functional components
+* Serina Tsang: Frontend, React components & pages set-up, styling
+* Arnold Diep: email notification
 
 ## Credits
 University of Washington Coding Bootcamp faculty
-* Instructor: Jason Rosen
-* TA: Kris Shore
-* TA: Daniel Mont-Eton
+* Instructor: Jason Wodicka
+* Tutor: Mark Steadman
 
 ## License
 MIT License
 
-Copyright (c) [2019] [Jiahui Wang]
+Copyright (c) [2020] 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
