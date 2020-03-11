@@ -27,9 +27,9 @@ Heroku Deployment: [Thrive](https://thrive206.herokuapp.com/)
 
 ## Teamwork
 * Jiahui Wang: React components and pages set-up, Material-UI styling, image searching API functional component building with React hooks, frontend data storage and connection to MongoDB, UX/UI design, illustrations for UI
-* Harry Furusho: Backend, MongoDB, validation, React functional components
-* Serina Tsang: Frontend, React components & pages set-up, styling
-* Arnold Diep: email notification
+* Harry Furusho: Back-end, MongoDB, validation, React functional components
+* Serina Tsang: Front-end, React components & pages set-up, styling
+* Arnold Diep: Back-end, email notification
 
 ## Credits
 University of Washington Coding Bootcamp faculty
