@@ -28,12 +28,6 @@ const useStyles = makeStyles(theme => ({
 export default function Type(props) {
   const [type, setType] = useState("");
 
-  //should I use useEffect here or no?
-  // useEffect(() => {
-  //   if (type) searchImage();
-  // }, [type]);
-  //useEffect will trigger whenever type is different
-
   function searchImage(type) {
     console.log("searchImage fired");
     console.log(type);
@@ -60,7 +54,7 @@ export default function Type(props) {
 
   async function saveType() {
     console.log("saveType fired");
-    localStorage.setItem("plantType", type); //where is type defined?
+    localStorage.setItem("plantType", type); 
 
     await searchImage(type);
   }

@@ -26,10 +26,18 @@ Heroku Deployment: [Thrive](https://thrive206.herokuapp.com/)
 * Build validation system
 
 ## Teamwork
-* Jiahui Wang: React components and pages set-up, Material-UI styling, image searching API functional component building with React hooks, frontend data storage and connection to MongoDB, UX/UI design, illustrations for UI
-* Harry Furusho: Back-end, MongoDB, validation, React functional components
-* Serina Tsang: Front-end, React components & pages set-up, styling
-* Arnold Diep: Back-end, email notification
+* Jiahui Wang: https://github.com/jiahuithegrey
+    * React components and pages set-up, Material-UI styling
+    * Image searching API functional component building with React hooks
+    * Frontend data storage and connection to MongoDB
+    * UX/UI design, UI illustrations
+* Harry Furusho: https://github.com/hfurusho
+    * Back-end, MongoDB, validation, 
+    * React functional components
+* Serina Tsang: https://github.com/serinat
+    * Front-end, React components & pages set-up, styling
+* Arnold Diep: https://github.com/atdiep
+    * Back-end, email notification
 
 ## Credits
 University of Washington Coding Bootcamp faculty
