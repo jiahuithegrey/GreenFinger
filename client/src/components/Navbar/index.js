@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
+import { withRouter } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { makeStyles } from "@material-ui/core/styles";
+
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-//import Container from '@material-ui/core/Container';
 import HomeIcon from "@material-ui/icons/Home";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import FaceIcon from "@material-ui/icons/Face";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { withRouter } from "react-router-dom";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
@@ -23,6 +22,7 @@ const useStyles = makeStyles({
 
 const Navbar = withRouter(({ history }) => {
   const classes = useStyles();
+  
   const [value, setValue] = React.useState("");
 
   const isActive = (history, path) => {
@@ -69,15 +69,3 @@ const Navbar = withRouter(({ history }) => {
 
 export default Navbar;
 
-/*
-    <Container>
-      <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-        <Route path={["/name", "/location", "/WaterSchedule", "/notes"]} component={HomeIcon} />
-        <Route path="/table" component={AddPlant} />
-        <Route path={["/name", "/location", "/WaterSchedule", "/notes"]} component={FaceIcon} />
-      </BottomNavigation>
-    </Container>
-
-  );
-}
-*/
